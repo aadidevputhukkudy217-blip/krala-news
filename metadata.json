@@ -1,0 +1,6 @@
+{
+  "name": "നന്മ വാർത്ത - മലയാളം പത്രം",
+  "description": "മുതിർന്നവർക്കായി ലളിതവും വ്യക്തവുമായ മലയാളം ദിനപത്രം. കേരളം, കോഴിക്കോട് വാർത്തകളും കാലാവസ്ഥയും ശബ്ദവായനയും.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

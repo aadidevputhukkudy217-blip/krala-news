@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-malayalam: 'Noto Sans Malayalam', 'Manjari', system-ui, -apple-system, sans-serif;
+    --font-malayalam-serif: 'Noto Serif Malayalam', Georgia, serif;
+    --bg-paper: #fcfbf7;
+    --bg-card: #f7f5ed;
+    --text-primary: #1f1d1a;
+    --text-secondary: #575249;
+    --accent-green: #1e4732;
+    --accent-green-hover: #173827;
+    --accent-green-soft: #edf4ef;
+    --border-subtle: #e6e2d3;
+  }
+
+  body {
+    background-color: var(--bg-paper);
+    color: var(--text-primary);
+    font-family: var(--font-malayalam);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* Custom scrollbar and reading helpers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f0e6;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8d2be;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #baaF9b;
+}
+
+/* Smooth reading selection */
+::selection {
+  background-color: #d1e7dd;
+  color: #0f291e;
+}

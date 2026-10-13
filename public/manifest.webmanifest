@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "നന്മ വാർത്ത - മലയാളം പത്രം",
+  "short_name": "നന്മ വാർത്ത",
+  "description": "മുതിർന്നവർക്കായി ലളിതവും വ്യക്തവുമായ മലയാളം ദിനപത്രം. കേരളം, കോഴിക്കോട് വാർത്തകളും കാലാവസ്ഥയും.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fcfbf7",
+  "theme_color": "#1e4732",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
